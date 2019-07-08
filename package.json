@@ -12,10 +12,10 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "lodash": "^4.17.5",
-        "xlsx": "^0.14.0"
+        "lodash": "^4.17.11",
+        "xlsx": "^0.14.3"
     },
     "devDependencies": {
-        "@types/node": "^10.12.0"
+        "@types/node": "^12.0.12"
     }
 }
