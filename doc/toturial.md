@@ -22,7 +22,7 @@ https://www.tslang.cn/docs/home.html 5 分钟 + handbook
 
 服务端的接口
 
-实际的项目中的代码
+实际的项目中的代码, 如果跨文件怎么办...
 
 作用:
 如果改了, 所有地方都需要改..., 如果你没有改 就会报错
@@ -48,3 +48,7 @@ https://www.tslang.cn/docs/home.html 5 分钟 + handbook
 
 向服务端的接口中加一个字段(list)
 类型的运算 & |
+
+## 提问环节
+
+很小的项目无所谓, 大项目一定要这个功能呢...

@@ -1,8 +1,8 @@
-function greeter(person) {
-    console.log('hello ' + person);
+function greeter(person: { name: string }) {
+    console.log(person.name);
 }
-
-greeter('world');
+// 基础类型 number boolean string {}
+greeter({ name: 'zsy' });
 
 // function greeter(person) {
 //     console.log('hello ' + person);
