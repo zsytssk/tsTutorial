@@ -1,0 +1,21 @@
+{
+    "name": "gen_map",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "genMap": "ts-node  --files ./script/main genMap",
+        "nodeGenMap": "node  --inspect ts-node --files ./libs/main genMap",
+        "publishMap": "ts-node --files ./script/main publish",
+        "genPublishMap": "ts-node --files ./script/main genPublish",
+        "test": "ts-node --files ./test/test"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.5",
+        "xlsx": "^0.14.0"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.0"
+    }
+}
